@@ -1,0 +1,26 @@
+.ski {
+    width: 100%;
+    margin: 3rem 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.ski .right {
+    max-width: 700px;
+}
+
+.right .img-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.right .img {
+    max-width: 120%;
+    padding: 1rem 3rem; 
+}
